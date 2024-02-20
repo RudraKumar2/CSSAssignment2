@@ -1,0 +1,78 @@
+/* Body styles */
+body {
+  font-family: "Aerial", sans-serif; /* Set font family */
+  color: black; /* Text color */
+  background-color: rgb(19, 19, 18); /* Background color */
+  padding: 20px; /* Padding around content */
+  margin: 0; /* Remove default margin */
+}
+
+/* Video background styles */
+#video-background {
+  position: fixed; /* Fixed positioning */
+  right: 0; /* Align to the right */
+  bottom: 0; /* Align to the bottom */
+  min-width: 100%; /* Minimum width */
+  min-height: 100%; /* Minimum height */
+  width: auto; /* Automatically adjust width */
+  height: auto; /* Automatically adjust height */
+  z-index: -1000; /* Set z-index to be behind other content */
+  overflow: hidden; /* Hide overflow */
+}
+
+/* Content styles */
+#video-content {
+  position: relative; /* Relative positioning */
+  z-index: 1; /* Ensure content is above video */
+}
+
+/* Main content container */
+main {
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* Header styles */
+h1 {
+  font-size: 3rem; /* Font size */
+  text-align: center; /* Center text */
+  margin-bottom: 30px; /* Bottom margin */
+  color: rgb(243, 237, 237); /* Text color */
+}
+
+/* Subheading styles */
+h2 {
+  font-size: 2rem; /* Font size */
+  text-align: center; /* Center text */
+  color: rgb(242, 240, 244); /* Text color */
+}
+
+/* Love class styles */
+.love {
+  color: rgb(180, 37, 37); /* Text color */
+  font-family: "Great Vibes", cursive; /* Font family */
+}
+
+/* Adm class styles */
+.adm {
+  font-weight: bold; /* Bold text */
+  color: #fcf9f9; /* Text color */
+}
+
+/* Nostalgia class styles */
+.nostelgia {
+  color: aliceblue; /* Text color */
+  font-size: 1.5rem; /* Font size */
+  font-family: "Times New Roman", Times, serif; /* Font family */
+}
+
+/* Jolly class styles */
+.jolly {
+  color: aliceblue; /* Text color */
+  font-family: Courier New, monospace; /* Font family */
+}
+
+/* Fo class styles */
+.fo {
+  color: aliceblue; /* Text color */
+}
